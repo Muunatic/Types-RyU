@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES6",
+      "outDir": "lib",
+      "lib": [
+          "ES6",
+          "dom" // Required for console.log()
+      ],
+      "allowJs": false,
+      "sourceMap": false,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "strictNullChecks": true, 
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "alwaysStrict": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+  }

@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
       "module": "commonjs",
-      "target": "ES6",
+      "target": "ES2021",
       "outDir": "lib",
       "lib": [
-          "ES6",
+          "ES2021",
           "dom" // Required for console.log()
       ],
       "allowJs": false,

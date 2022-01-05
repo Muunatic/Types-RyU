@@ -2,7 +2,7 @@
   "name": "ryu",
   "version": "1.0.0",
   "description": "Types RyU",
-  "main": "node ./lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "node ./lib/index.js",
     "deploy": "node ./lib/deploy.js",
